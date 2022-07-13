@@ -1,0 +1,24 @@
+{
+  "name": "tailwind_prac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css":"tailwindcss -i ./src/style.css -o ./dist/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seonjakim/tailwind_prac.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seonjakim/tailwind_prac/issues"
+  },
+  "homepage": "https://github.com/seonjakim/tailwind_prac#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.6"
+  }
+}
